@@ -1,0 +1,7 @@
+Comments in JavaScript serve as non-executable text within the code that helps in explaining, documenting, or providing context for various parts of the program. They are ignored by the JavaScript interpreter and are meant for developers or other collaborators who read the code. Comments are crucial for enhancing code readability, aiding in understanding complex logic, and explaining the purpose of certain code segments.
+
+Single-Line Comments:->
+In JavaScript, single-line comments start with //. They are used to comment a single line of code.
+
+Multi-Line Comments:->
+JavaScript also supports multi-line comments, which begin with /* and end with */. They are used to comment out multiple lines of code or to create longer comments.

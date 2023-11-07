@@ -1,0 +1,16 @@
+Operators in JavaScript are fundamental symbols or keywords that are used to perform operations on variables and values. They play a crucial role in programming by allowing developers to manipulate data, perform calculations, compare values, and more. These operations can include arithmetic, assignment, comparison, logical operations, bitwise operations, and more. The role of operators in JavaScript can be summarized as follows:
+
+
+Arithmetic Operators:-> These operators (+, -, *, /, %) perform basic arithmetic operations like addition, subtraction, multiplication, division, and modulus (remainder).
+
+Assignment Operators:-> These operators (+=, -=, *=, /=, %=) are used to assign values to variables while performing an operation simultaneously. For example, x += 5; is a shorthand for x = x + 5;.
+
+Comparison Operators:-> These operators (==, ===, !=, !==, >, <, >=, <=) are used to compare two values and return a Boolean result. They are crucial in making decisions and control flow in programs.
+
+Logical Operators:-> Logical operators (&&, ||, !) are used to combine multiple conditions and perform logical operations. They are essential in implementing conditional statements and loops.
+
+Bitwise Operators:-> These operators perform operations at the bit level. They are used to manipulate individual bits within binary representations of numbers.
+
+Unary Operators:-> Operators like ++ (increment), -- (decrement), and ! (logical NOT) operate on a single operand.
+
+Ternary Operator:-> The ternary operator (condition ? expr1 : expr2) is a compact way to write simple if-else statements.

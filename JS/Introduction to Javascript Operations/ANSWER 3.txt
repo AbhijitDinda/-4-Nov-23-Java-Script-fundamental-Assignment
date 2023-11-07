@@ -1,0 +1,44 @@
+In JavaScript, operators are categorized based on the number of operands they work on:
+
+1. Unary Operators:
+   Unary operators are those that work with a single operand, meaning they operate on only one value.
+
+   Examples of Unary Operators:
+   ---code---
+   // Unary minus (-)
+   let x = 10;
+   let y = -x; // y will be -10
+
+   // Increment (++)
+   let a = 5;
+   a++; // a will be 6
+
+   // Logical NOT (!)
+   let isTrue = true;
+   let isFalse = !isTrue; // isFalse will be false
+   
+
+2. Binary Operators:
+   Binary operators work with two operands, performing operations between these two values.
+
+   Examples of Binary Operators:
+   ---code---
+   // Addition (+)
+   let sum = 5 + 3; // sum will be 8
+
+   // Subtraction (-)
+   let difference = 10 - 4; // difference will be 6
+
+   // Multiplication (*)
+   let product = 6 * 4; // product will be 24
+   
+
+3. Ternary Operator:
+   The ternary operator is unique as it's the only operator that takes three operands, used for decision-making or conditional expressions. It evaluates a condition and returns one of two values based on that condition.
+
+   Example of the Ternary Operator:
+   ---code---
+   let age = 20;
+   let allowed = age >= 18 ? 'Allowed' : 'Not Allowed';
+   // If age is greater than or equal to 18, allowed will be 'Allowed', otherwise 'Not Allowed'
+   

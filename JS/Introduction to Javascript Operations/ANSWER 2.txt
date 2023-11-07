@@ -1,0 +1,93 @@
+Operators in JavaScript can be categorized based on their functionality into several groups:
+
+1. Arithmetic Operators:
+   These operators perform mathematical calculations.
+
+   Examples:
+   ---code---
+   let a = 10;
+   let b = 5;
+   let addition = a + b; // Addition (+)
+   let subtraction = a - b; // Subtraction (-)
+   let multiplication = a * b; // Multiplication (*)
+   let division = a / b; // Division (/)
+   let modulus = a % b; // Modulus (remainder) (%)
+   
+
+2. Assignment Operators:
+   These operators are used to assign values to variables.
+
+   Examples:
+   ---code---
+   let x = 10;
+   x += 5; // Equivalent to x = x + 5;
+   let y = 20;
+   y -= 3; // Equivalent to y = y - 3;
+   
+
+3. Comparison Operators:
+   These operators compare two values and return a Boolean result.
+
+   Examples:
+   ---code---
+   let num1 = 10;
+   let num2 = 5;
+
+   console.log(num1 === num2); // Strict equality (===)
+   console.log(num1 !== num2); // Strict inequality (!==)
+   console.log(num1 > num2); // Greater than (>)
+   console.log(num1 < num2); // Less than (<)
+   console.log(num1 >= num2); // Greater than or equal to (>=)
+   console.log(num1 <= num2); // Less than or equal to (<=)
+   
+
+4. Logical Operators:
+   Logical operators are used to combine and manipulate Boolean values.
+
+   Examples:
+   ---code---
+   let value1 = true;
+   let value2 = false;
+
+   console.log(value1 && value2); // Logical AND (&&)
+   console.log(value1 || value2); // Logical OR (||)
+   console.log(!value1); // Logical NOT (!)
+   
+
+5. Bitwise Operators:
+   These operators perform bit-level manipulation.
+
+   Examples:
+   ---code---
+   let num1 = 5; // Binary representation 101
+   let num2 = 3; // Binary representation 011
+
+   console.log(num1 & num2); // Bitwise AND (&)
+   console.log(num1 | num2); // Bitwise OR (|)
+   console.log(num1 ^ num2); // Bitwise XOR (^)
+   console.log(~num1); // Bitwise NOT (~)
+   console.log(num1 << 1); // Left shift (<<)
+   console.log(num1 >> 1); // Right shift (>>)
+   
+
+6. Unary Operators:
+   Operators that work on a single operand.
+
+   Examples:
+   ---code---
+   let x = 10;
+   x++; // Post-increment (Equivalent to x = x + 1)
+   let y = 5;
+   y--; // Post-decrement (Equivalent to y = y - 1)
+   let isTrue = true;
+   !isTrue; // Logical NOT (!)
+   
+
+7. Ternary Operator:
+   A conditional operator that evaluates a condition and returns a value based on that condition.
+
+   Example:
+   ---code---
+   let age = 20;
+   let allowed = age >= 18 ? 'Allowed' : 'Not Allowed';
+   

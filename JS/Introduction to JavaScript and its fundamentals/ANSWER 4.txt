@@ -1,0 +1,4 @@
+Declaring variables in JavaScript serves the purpose of allocating memory for data storage. It allows developers to store, manipulate, and reference values or data throughout their programs. Variables serve as containers that hold various types of data, such as numbers, strings, booleans, or objects. They enable the reuse and manipulation of values within a program.
+
+let variableName;
+let anotherVariable = 10; 
